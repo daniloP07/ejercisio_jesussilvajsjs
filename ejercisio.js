@@ -107,3 +107,23 @@ else if (numero1 > numero2){
 }
  /*ejercisio8*/
 
+ let numer= parseFloat(prompt("Ingrese un número:"));
+
+ if (numer > 0) {
+     alert("El número es positivo.");
+ } else if (numero < 0) {
+     alert("El número es negativo.");
+ } else {
+     alert("El número es igual a cero.");
+ }
+
+ /*ejercisio9*/
+
+ let usuario = prompt("Ingrese nombre de usuario:");
+let contraseña = prompt("Ingrese su contraseña:");
+
+if (usuario === "admin" && contraseña === "12345") {
+    alert("Acceso concedido");
+} else {
+    alert("Acceso denegado");
+}
